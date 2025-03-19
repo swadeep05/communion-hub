@@ -1,0 +1,103 @@
+/* EventListingPage.css */
+
+/* Common Styles */
+.event-listing-container {
+	font-family: 'Arial', sans-serif;
+	background-color: #f8f9fa;
+	/* light grey background */
+	color: #333;
+	/* dark text for readability */
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.event-listing-header {
+	background-color: #343a40;
+	/* dark grey background */
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.event-listing-title {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.event-listing-nav {
+	margin-top: 15px;
+	display: flex;
+	/* Flexbox for horizontal layout */
+	justify-content: center;
+	/* Centers the links horizontally */
+}
+
+.nav-link {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 1.1rem;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+/* Event Listings */
+.event-listing-content {
+	padding: 40px 20px;
+}
+
+.event-card {
+	background-color: #fff;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 20px;
+	text-align: center;
+}
+
+.event-card h5 {
+	font-size: 1.4rem;
+	color: #343a40;
+}
+
+.event-card .btn {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	margin-top: 10px;
+}
+
+.event-card .btn:hover {
+	background-color: #0056b3;
+	transition: background-color 0.3s ease;
+}
+
+/* Filter Sidebar */
+.event-listing-nav button {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.event-listing-title {
+		font-size: 2.5rem;
+	}
+
+	.event-card h5 {
+		font-size: 1.2rem;
+	}
+
+	.event-listing-nav {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.event-listing-nav button {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+}

@@ -1,0 +1,33 @@
+/* AboutPage.css */
+.about-container {
+	padding: 40px;
+	background-color: #f7f9fc;
+  }
+  
+  .about-card {
+	background-color: #fff;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin-bottom: 20px;
+  }
+  
+  .card-title {
+	font-weight: bold;
+	color: #007bff;
+  }
+  
+  .card-text {
+	font-size: 1rem;
+	color: #555;
+  }
+  
+  h2 {
+	font-size: 2.5rem;
+	color: #333;
+  }
+  
+  p {
+	font-size: 1.1rem;
+	color: #666;
+  }
+  
