@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import '../styles/HomePage.css';  // Correct relative path to the CSS file
+import '../styles/HomePage.css'; 
 
 
 const HomePage = () => {

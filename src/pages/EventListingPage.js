@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap';
-import '../styles/EventListingPage.css';  // Link to the updated CSS
+import '../styles/EventListingPage.css';  
 
 const EventListingPage = () => {
-  // Sample event data (you can replace this with real data or dynamic content)
+  
   const initialEvents = [
     { id: 1, title: "Community Gathering", date: "2025-04-10", location: "Community Center", description: "A gathering for community discussions and activities." },
     { id: 2, title: "Charity Run", date: "2025-05-15", location: "City Park", description: "A fun charity run to raise money for a good cause." },
@@ -20,7 +20,7 @@ const EventListingPage = () => {
     description: '',
   });
 
-  // Filter events based on category
+  
   const filteredEvents = category === "All" ? events : events.filter(event => event.title.toLowerCase().includes(category.toLowerCase()));
 
   const handleInputChange = (e) => {
@@ -32,8 +32,8 @@ const EventListingPage = () => {
     e.preventDefault();
     const updatedEvents = [...events, { ...newEvent, id: events.length + 1 }];
     setEvents(updatedEvents);
-    setNewEvent({ title: '', date: '', location: '', description: '' }); // Reset form
-    setShowAddEventForm(false);  // Hide the form after submitting
+    setNewEvent({ title: '', date: '', location: '', description: '' }); 
+    setShowAddEventForm(false);  
   };
 
   return (

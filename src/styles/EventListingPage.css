@@ -4,9 +4,7 @@
 .event-listing-container {
 	font-family: 'Arial', sans-serif;
 	background-color: #f8f9fa;
-	/* light grey background */
 	color: #333;
-	/* dark text for readability */
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -14,7 +12,6 @@
 
 .event-listing-header {
 	background-color: #343a40;
-	/* dark grey background */
 	color: white;
 	padding: 20px 0;
 	text-align: center;
@@ -28,9 +25,7 @@
 .event-listing-nav {
 	margin-top: 15px;
 	display: flex;
-	/* Flexbox for horizontal layout */
 	justify-content: center;
-	/* Centers the links horizontally */
 }
 
 .nav-link {
@@ -44,7 +39,7 @@
 	text-decoration: underline;
 }
 
-/* Event Listings */
+
 .event-listing-content {
 	padding: 40px 20px;
 }
@@ -74,13 +69,12 @@
 	transition: background-color 0.3s ease;
 }
 
-/* Filter Sidebar */
 .event-listing-nav button {
 	margin-bottom: 10px;
 	width: 100%;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
 	.event-listing-title {
 		font-size: 2.5rem;

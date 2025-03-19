@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import EventListingPage from "./pages/EventListingPage";
-import AboutPages from "./pages/AboutPages";  // Changed to AboutPages (the name you used)
+import AboutPages from "./pages/AboutPages";  
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/events" element={<EventListingPage />} />
-        <Route path="/aboutpages" element={<AboutPages />} /> {/* Updated the route path */}
+        <Route path="/aboutpages" element={<AboutPages />} /> 
       </Routes>
     </Router>
   );

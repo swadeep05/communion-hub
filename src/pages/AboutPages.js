@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import '../styles/AboutPage.css'; // Correct path to the CSS file
+import '../styles/AboutPage.css'; 
 
 const AboutPages = () => {
   return (

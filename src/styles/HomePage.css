@@ -3,9 +3,7 @@
 .home-container {
 	font-family: 'Arial', sans-serif;
 	background-color: #f8f9fa;
-	/* light grey background */
 	color: #333;
-	/* dark text for readability */
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -13,7 +11,6 @@
 
 .home-header {
 	background-color: #343a40;
-	/* dark grey background */
 	color: white;
 	padding: 20px 0;
 	text-align: center;
@@ -44,7 +41,6 @@
 
 .hero-section {
 	background-color: #f1f1f1;
-	/* light grey for the hero section */
 	padding: 80px 0;
 	text-align: center;
 	display: flex;
@@ -57,7 +53,6 @@
 	font-size: 3.5rem;
 	font-weight: bold;
 	color: #343a40;
-	/* dark grey text */
 	margin-bottom: 20px;
 }
 
@@ -69,7 +64,6 @@
 
 .explore-btn {
 	background-color: #007bff;
-	/* blue button color */
 	border: none;
 	font-size: 1.2rem;
 	padding: 12px 30px;
@@ -78,11 +72,10 @@
 
 .explore-btn:hover {
 	background-color: #0056b3;
-	/* dark blue on hover */
 	transition: background-color 0.3s ease;
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
 	.home-title {
 		font-size: 2.5rem;
@@ -101,4 +94,3 @@
 		padding: 10px 25px;
 	}
 }
-
