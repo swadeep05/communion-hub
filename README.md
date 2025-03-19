@@ -1,3 +1,4 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# communion-hub
+CommunionHub is a React app to connect people through community events. Users can view, filter (by category), and add events (title, date, category). The app is responsive, with smooth transitions and works on both desktop and mobile devices. Built with React and Bootstrap.
+a688ac052d4f1ae38b4fb3d9ac718ae562d99163
